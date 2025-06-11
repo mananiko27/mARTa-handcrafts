@@ -35,12 +35,16 @@
       max-width: 800px;
       margin: 0 auto;
     }
-    .section img {
-      max-width: 150px;
+    .section img.art {
+      max-width: 140px;
       margin: 1rem;
       float: right;
-      border-radius: 10px;
+      border-radius: 12px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .section img.decor {
+      max-width: 60px;
+      margin: 0.5rem;
     }
     footer {
       text-align: center;
@@ -64,7 +68,7 @@
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero" id="home">
     <h1>Welcome to mARTa Handcrafts</h1>
     <p>A space born from love, joy, and the art of childhood wonder.</p>
   </section>
@@ -72,12 +76,36 @@
   <section id="martha" class="section">
     <h2>Martha</h2>
     <p>This space is born from love, devotion, and an eternal bond.</p>
-    <img src="art1.jpg" alt="Art 1">
+    <img src="art1.jpg" class="art" alt="Art 1">
     <p>It is dedicated to my sweet, blissful, strong-minded, and deeply artistic daughter, Martha — eternally 8 years old...</p>
-    <img src="art2.jpg" alt="Art 2">
+    <img src="art2.jpg" class="art" alt="Art 2">
     <p>Her sense of color, shape, and beauty ran deep. Her drawings, her crafts, her playful eye – all were inimitable...</p>
-    <img src="art3.jpg" alt="Art 3">
-    <p>Every piece in mARTa is crafted with care, heart, and a spark of childhood magic...</p>
+    <img src="art3.jpg" class="art" alt="Art 3">
+    <p>This space isn’t about perfection. It’s about imagination, joy and simple forms that radiate warmth, color and comfort...</p>
+    <img src="art4.jpg" class="art" alt="Art 4">
+    <p>Every piece in mARTa is crafted with care, heart, and a spark of childhood magic.</p>
+    <img src="balloon.png" class="decor" alt="Girl with Balloon">
+  </section>
+
+  <section id="handmade" class="section">
+    <h2>Handmade</h2>
+    <p>Explore heartfelt creations made with love and memory. Coming soon: Crafts, Arts, and Design sections.</p>
+  </section>
+
+  <section id="workshops" class="section">
+    <h2>mARTa Workshop Corner</h2>
+    <p>Upcoming workshops will be posted here! Stay tuned for joyful moments of making and learning together.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>If you’d like to reach out, ask about a workshop, or connect, feel free to send a message below:</p>
+    <form>
+      <label>Name:<br><input type="text" name="name" /></label><br><br>
+      <label>Email:<br><input type="email" name="email" /></label><br><br>
+      <label>Message:<br><textarea name="message" rows="5"></textarea></label><br><br>
+      <button type="submit">Send</button>
+    </form>
   </section>
 
   <footer>
